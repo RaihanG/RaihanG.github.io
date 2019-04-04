@@ -129,7 +129,7 @@ blockquote, p , a, li {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 15px;
-	color: rgb(204, 203, 212);
+	color: rgb(250, 250, 250);
 }
 
 a:focus { 
@@ -268,7 +268,7 @@ ul {
 }
 
 .profile_frame{
-	width: 210px;
+	width: 180px;
 	height: 220px;
 	background: black;
 	border: 1px solid #403F44;
