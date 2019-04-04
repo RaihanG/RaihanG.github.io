@@ -45,6 +45,19 @@
 		text-indent: 0;
 	}
 
+.list-horizontal li {
+	display:inline-block;
+}
+.list-horizontal li:before {
+	content: '\00a0\2022\00a0\00a0';
+	/* color:#999; */
+	color:rgba(83, 183, 201, 0.5);
+	font-size:14px;
+}
+.list-horizontal li:first-child:before {
+	content: '';
+}
+
 .horizontal_line{
 	margin: 34px 0 0 30px;
 	height: 26px;
@@ -151,7 +164,6 @@ ul {
 		font-size: 20px;
 		padding-right: 8px;
 	}
-
 /* Containers size */
 
 #main_container {
