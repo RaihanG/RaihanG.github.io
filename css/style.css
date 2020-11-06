@@ -78,7 +78,7 @@
 	.left_circle, 
 	.central_circle, 
 	.right_circle {
-		background: rgb(69,68,73);
+		background: rgb(45, 122, 52);
 		background: rgba(255,255,255, 0.15);
 		position: absolute;
 		border-radius: 50px;
